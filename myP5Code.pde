@@ -12,20 +12,18 @@ setup = function() {
     text("🍽", i, 370)
   }
 
-//my fav foods
-textSize(15);
-fill(0, 20, 145)
+  //my fav foods
+  textSize(15);
+  fill(0, 20, 145)
   text(myFavFoods[0], 0, 40)
   text(myFavFoods[1], 0, 80)
   text(myFavFoods[2], 0, 120)
   
   fill(random(255), random(255), random(255))
-  text("My top " + myFavFoods.length + " favorite fruits!!", random(1, 300), random(1, 300) )
+  text("My top " + myFavFoods.length + " favorite fruits!!", random(1, 300), random(1, 300));
+  
+};
 
   draw = function(){
     image(snoopyEating, 250, 200, 120, 130);
   }
-  
-
-};
-
